@@ -1,0 +1,15 @@
+server:
+    port: 3000
+eureka:
+    server:
+        enable-self-preservation: false
+        eviction-interval-timer-in-ms: 4000
+    instance:
+        hostname: eureka3000.com
+
+    client:
+        registerWithEureka: false
+        fetchRegistry: false
+        serviceUrl:
+#            defaultZone: http://eureka3001.com:3001/eureka,http://eureka3002.com:3002/eureka
+            defaultZone: http://eureka3000.com:3000/eureka

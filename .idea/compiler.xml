@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zuul3" />
+        <module name="zuul2" />
+        <module name="config-server" />
+        <module name="config-client" />
+        <module name="eureka3001" />
+        <module name="user1" />
+        <module name="zipkin" />
+        <module name="user" />
+        <module name="eureka3002" />
+        <module name="power" />
+        <module name="zuul" />
+        <module name="euraka3000" />
+        <module name="zuu4" />
+        <module name="zuul5" />
+        <module name="zuul4" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="order" target="1.8" />
+      <module name="untitled" target="1.5" />
+      <module name="zuu4" target="1.5" />
+      <module name="zuul4" target="1.8" />
+      <module name="zuul5" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-client" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="euraka3000" options="-parameters" />
+      <module name="eureka3001" options="-parameters" />
+      <module name="eureka3002" options="-parameters" />
+      <module name="order" options="-parameters" />
+      <module name="power" options="-parameters" />
+      <module name="user" options="-parameters" />
+      <module name="user1" options="-parameters" />
+      <module name="zipkin" options="-parameters" />
+      <module name="zuu4" options="" />
+      <module name="zuul" options="-parameters" />
+      <module name="zuul2" options="-parameters" />
+      <module name="zuul3" options="-parameters" />
+      <module name="zuul4" options="-parameters" />
+      <module name="zuul5" options="" />
+    </option>
+  </component>
+</project>
